@@ -25,6 +25,11 @@
     border-radius: 50%;
     overflow: hidden;
     margin: 0;
+    transition: all 0.25s;    
+}
+
+.header__image-container:hover{
+    transform: scale(1.25);
 }
 
 .header__image{
@@ -74,6 +79,13 @@
     font-size: .75rem;
 }
 
+.article__card-description::after{
+    content: '--😎--';
+}
+ 
+.article__card-description::before{
+    content: '--😎--';
+}
 
 .footer{
     display: flex;
@@ -102,10 +114,14 @@
 .footer-nav__link{
     display: flex;
     width: 1.75rem;
+    transition: all 0.75s;    
+}
+
+.footer-nav__link:hover {
+    filter: brightness(150%);
+    transform: scale(1.25) rotate(720deg);
 }
 
 .footer-nav__link_image{
     width:100%;
 }
-
-
