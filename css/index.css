@@ -6,6 +6,7 @@
     margin:0;
     background-image: url(https://images.alphacoders.com/694/thumb-1920-694756.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -27,23 +28,34 @@
 }
 
 .footer{
-
+    display: flex;
 }
+
 .footer-nav{
-
+    display: flex;
 }
-.footer-nav-containe{
 
+.footer-nav-container{
+    display: flex;
 }
+
 .footer-nav__link-list{
-
+    display: flex;
+    gap: .8rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+
 .footer-nav__link-item{
-
+    display: flex;
 }
+
 .footer-nav__link{
-
+    display: flex;
+    width: 1.75rem;
 }
+
 .footer-nav__link_image{
-    
+    width:100%;
 }
